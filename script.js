@@ -10,7 +10,7 @@ function submitComment() {
       document.getElementById("comment-box").value = "";
   
       // Redirect to comments.html
-      alert("Comment submitted");
+      window.location.href = "comments.html";
     }
   }
   
